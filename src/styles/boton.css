@@ -1,0 +1,15 @@
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: #cdcdcd;
+}
+a:hover {
+  color: #dedede;
+}
+.boton {
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.5rem;
+  border-radius: 10%;
+}

@@ -1,0 +1,48 @@
+#header {
+  align-self: center;
+  color: #cacaca;
+  padding: 0 20px;
+}
+
+.header-h1 {
+  font-size: 3rem;
+}
+
+.header-p {
+  position: relative;
+  font-size: 1.5rem;
+  display: inline-block;
+}
+.header-p::before {
+  content: "";
+  position: absolute;
+  margin-left: 2px;
+  height: 100%;
+  opacity: 0.8;
+  width: 2px;
+  left: 100%;
+  background-color: #cacaca;
+  animation: parpadeo 0.5s infinite alternate;
+}
+@keyframes parpadeo {
+  0% {
+    opacity: 0.8;
+  }
+  49% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  #header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
