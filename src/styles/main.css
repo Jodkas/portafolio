@@ -6,23 +6,14 @@
 }
 
 .main-imagen-contenedor {
-  position: relative;
-  max-height: 80%;
+  border: 3px solid #f00;
+  height: 70%;
+  max-height: 90%;
+  width: 45%;
   align-self: flex-end;
-  overflow: hidden;
 }
 
 .main-imagen {
   height: 100%;
   width: 100%;
-  object-fit: contain;
-}
-@media (max-width: 768px) {
-  #main {
-    flex-direction: column-reverse;
-  }
-  .main-imagen-contenedor {
-    align-self: center;
-    max-height: 60%;
-  }
 }

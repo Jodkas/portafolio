@@ -3,7 +3,7 @@ import "../styles/contenedor-proyectos.css";
 
 function ContenedorProyectos() {
   return (
-    <section id="proyectos-contenedor">
+    <section id="conocimientos">
       <h2>Mis proyectos</h2>
     </section>
   );

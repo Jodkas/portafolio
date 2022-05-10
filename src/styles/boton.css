@@ -2,14 +2,13 @@ a:link,
 a:visited,
 a:active {
   text-decoration: none;
-  color: #cdcdcd;
+  color: var(--white1);
 }
 a:hover {
-  color: #dedede;
+  color: var(--white3);
 }
 .boton {
   margin: 10px;
   padding: 10px;
-  font-size: 1.5rem;
-  border-radius: 10%;
+  font-size: 1.1rem;
 }

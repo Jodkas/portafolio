@@ -7,7 +7,7 @@ function NavUl(props) {
     <div className="nav__ul-contenedor">
       <ul className="nav__ul">
         <li className="nav__li">
-          <Boton texto="Conocimientos" />
+          <Boton texto="Conocimientos" link="conocimientos" />
         </li>
         <li className="nav__li">
           <Boton texto="Proyectos" />

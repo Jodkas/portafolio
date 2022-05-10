@@ -1,0 +1,11 @@
+.nav__ul {
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  .nav__ul-contenedor {
+    position: absolute;
+    top: 0;
+    left: 100%;
+  }
+}
