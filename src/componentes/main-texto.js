@@ -7,7 +7,7 @@ function MainText() {
       <h1 className="header-h1">
         Hola!
         <br />
-        Soy Lucas Cardozo
+        Soy <span className="header-h1-span">Lucas Cardozo</span>
       </h1>
       <p className="header-p">Un desarrollador web...</p>
     </header>

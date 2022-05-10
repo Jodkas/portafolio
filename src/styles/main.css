@@ -1,14 +1,13 @@
 #main {
-  height: 100%;
+  height: calc(100% - 50px);
+  padding-top: 50px;
   width: 100%;
   display: flex;
   background-color: #111;
 }
 
 .main-imagen-contenedor {
-  border: 3px solid #f00;
-  height: 70%;
-  max-height: 90%;
+  height: 100%;
   width: 45%;
   align-self: flex-end;
 }
@@ -16,4 +15,16 @@
 .main-imagen {
   height: 100%;
   width: 100%;
+  object-fit: contain;
+  object-position: bottom;
+}
+
+@media screen and (max-aspect-ratio: 6/5) {
+  #main {
+    flex-direction: column-reverse;
+  }
+  .main-imagen-contenedor {
+    height: 65%;
+    width: 100%;
+  }
 }

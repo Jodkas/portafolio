@@ -41,5 +41,9 @@
   }
 }
 
-@media (max-width: 768px) and (min-height: 600px) {
+@media (max-width: 600px) {
+  .header-h1-span {
+    display: flex;
+    flex-wrap: nowrap;
+  }
 }
