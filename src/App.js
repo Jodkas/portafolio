@@ -8,6 +8,22 @@ function App() {
       <Nav />
       <Main />
       <ContenedorProyectos />
+      <section className="prueba">
+        <div className="contenedor">
+          <div className="cuadrado"></div>
+          <div className="cuadrado"></div>
+          <div className="cuadrado"></div>
+          <div className="cuadrado"></div>
+          <div className="cuadrado"></div>
+          <div className="cuadrado"></div>
+          <div className="cuadrado"></div>
+          <div className="cuadrado"></div>
+          <div className="cuadrado"></div>
+          <div className="cuadrado"></div>
+          <div className="cuadrado"></div>
+          <div className="cuadrado"></div>
+        </div>
+      </section>
     </div>
   );
 }
