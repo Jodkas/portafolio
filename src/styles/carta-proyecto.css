@@ -1,0 +1,24 @@
+.carta {
+  width: 250px;
+  margin: 5px 20px;
+}
+
+.carta__imagen-contenedor {
+  height: 250px;
+  max-width: 250px;
+  overflow: hidden;
+  border-radius: 5%;
+}
+
+.carta__imagen {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.carta__texto {
+  text-align: center;
+  color: var(--white1);
+  padding: 10px;
+  font-size: 1.5rem;
+}

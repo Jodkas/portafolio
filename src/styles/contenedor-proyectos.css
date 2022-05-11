@@ -1,5 +1,22 @@
 #conocimientos {
-  height: 100%;
+  min-height: 100%;
   width: 100%;
   background-color: #141414;
 }
+.proyectos-titulo {
+  text-align: center;
+  color: var(--white1);
+  font-size: 5rem;
+  padding: 30px 0;
+}
+.proyectos-contenedor {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+  .proyectos-titulo {
+    font-size: 3rem;
+  }
+} ;
