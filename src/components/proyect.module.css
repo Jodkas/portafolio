@@ -1,0 +1,10 @@
+.container {
+  width: max-content;
+  margin: 10px 10px;
+}
+
+.title {
+  display: inline-block;
+  margin: 0;
+  font-size: 1.5rem;
+}

@@ -1,0 +1,11 @@
+.container {
+  background-color: white;
+  height: max-content;
+  z-index: 10;
+  position: sticky;
+  padding: 40px;
+}
+.title {
+  margin: 0;
+  font-size: 5rem;
+}

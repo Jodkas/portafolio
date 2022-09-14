@@ -1,0 +1,51 @@
+.container {
+  height: 150px;
+  width: 100%;
+  overflow-x: hidden;
+  position: absolute;
+  top: 1px;
+  left: 0;
+  transform: translateY(-100%);
+}
+.container::-webkit-scrollbar{
+  display: none;
+}
+.wave1 {
+  left: 0;
+  height: 100%;
+  width: 5000px;
+  background-image: url('../media/images/wave.png');
+  background-repeat: repeat-x;
+  background-position: bottom;
+  animation: wave1 7s linear infinite;
+}
+
+.wave2 {
+  left: 0;
+  opacity: 0.5;
+  height: 100%;
+  width: 5000px;
+  background-image: url('../media/images/wave.png');
+  background-position: bottom;
+  background-repeat: repeat-x;
+  animation: wave1 7s linear -0.15s infinite, wave2 7s ease -0.125s infinite;
+}
+
+@keyframes wave1 {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -1440px;
+  }
+}
+
+@keyframes wave2 {
+  0%,
+  100% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}

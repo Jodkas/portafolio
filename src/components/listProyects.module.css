@@ -1,0 +1,26 @@
+.container{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  min-height: 500px;
+  margin-top: 100px;
+}
+.lineTop{
+  height: 10px;
+  width: 60%;
+  border-radius: 10px;
+  background-color: black;
+  position: absolute;
+  top: -20px;
+  left: 0;
+}
+.lineBottom {
+  height: 10px;
+  width: 60%;
+  border-radius: 10px;
+  background-color: black;
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+}
