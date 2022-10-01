@@ -7,8 +7,8 @@ Fué creado con la herramienta proporcionada por Facebook, ReactJS.
 
 Escribeme sin problemas, yo estaré para tí.
 
-Linkedin: 'https://www.linkedin.com/in/lucas-ivan-cardozo',
-Instagram: 'https://www.instagram.com/lucardozo27',
-Whatsapp: '2235319564'.
+- Linkedin: 'https://www.linkedin.com/in/lucas-ivan-cardozo',
+- Instagram: 'https://www.instagram.com/lucardozo27',
+- Whatsapp: '2235319564'.
 
-##
+## Gracias por tu atención!
