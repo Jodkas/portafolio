@@ -3,7 +3,7 @@
   width: 100%;
   overflow-x: hidden;
   position: absolute;
-  top: 1px;
+  z-index: -1;
   left: 0;
   transform: translateY(-100%);
 }
@@ -14,10 +14,10 @@
   left: 0;
   height: 100%;
   width: 5000px;
-  background-image: url('../media/images/wave.png');
+  background-image: url('../assets/images/background/wave.png');
   background-repeat: repeat-x;
   background-position: bottom;
-  animation: wave1 7s linear infinite;
+  animation: wave1 10s linear infinite;
 }
 
 .wave2 {
@@ -25,10 +25,10 @@
   opacity: 0.5;
   height: 100%;
   width: 5000px;
-  background-image: url('../media/images/wave.png');
+  background-image: url('../assets/images/background/wave.png');
   background-position: bottom;
   background-repeat: repeat-x;
-  animation: wave1 7s linear -0.15s infinite, wave2 7s ease -0.125s infinite;
+  animation: wave1 10s linear -0.15s infinite, wave2 10s ease -0.125s infinite;
 }
 
 @keyframes wave1 {

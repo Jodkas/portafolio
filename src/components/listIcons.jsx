@@ -1,8 +1,8 @@
 import listIconStyles from './listIcons.module.css';
 import Icon from './icon';
-import github from '../media/images/github.png';
-import instagram from '../media/images/instagram.png';
-import linkedin from '../media/images/linkedin.png';
+import github from '../assets/images/logo/github.png';
+import instagram from '../assets/images/logo/instagram.png';
+import linkedin from '../assets/images/logo/linkedin.png';
 
 const ListIcons = () => {
   return (

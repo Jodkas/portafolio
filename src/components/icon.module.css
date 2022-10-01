@@ -23,7 +23,7 @@
   width: min-content;
   transform: scaleX(.1);
   transform-origin: 1% 0;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, 
 }
 .linkContainer {
   padding: 1px 5px;

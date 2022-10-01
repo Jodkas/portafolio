@@ -1,10 +1,85 @@
 .container {
-  width: max-content;
+  position: relative;
+  display: flex;
+  width: 100%;
   margin: 10px 10px;
 }
 
 .title {
-  display: inline-block;
   margin: 0;
+  min-width: max-content;
   font-size: 1.5rem;
+}
+.features {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+.descriptionContainer {
+  display: flex;
+  flex-grow: 1;
+  width: 50%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.description {
+  padding: 0 0 0 40px;
+  text-align: justify;
+}
+.buttonContainer {
+  align-self: flex-end;
+}
+.button {
+  border: 1px solid rgb(37, 37, 37);
+  border-radius: 5px;
+  text-align: center;
+  width: 90px;
+  margin: 10px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: #3f3f3f;
+  color: white;
+  transition: transform linear .1s, background-color linear .1s, color linear .1s;
+}
+.button:hover{
+  color: #000;
+  background-color: #e7e7e7;
+  transform: scale(1.1);
+}
+.buttonText {
+  margin: 0;
+}
+.sliderContainer {
+  position: relative;
+  display: flex;
+  min-height: 300px;
+  height: 100%;
+  max-height: 400px;
+  width: 50%;
+  max-width: 500px;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider {
+  position: absolute;
+}
+
+.imgContainer {
+  cursor: grab;
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  background: white;
+  overflow: hidden;
+  border-radius: 5px;
+  filter: drop-shadow(3px 3px 2px #0006);
+}
+
+.img {
+  pointer-events: none;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
