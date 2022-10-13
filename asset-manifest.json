@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/jodkas.github.io/portafolio/static/css/main.e99290dc.css",
-    "main.js": "/jodkas.github.io/portafolio/static/js/main.b7b62e82.js",
-    "static/js/787.ae0d8d37.chunk.js": "/jodkas.github.io/portafolio/static/js/787.ae0d8d37.chunk.js",
-    "static/media/inicio.png": "/jodkas.github.io/portafolio/static/media/inicio.d6835df5088847ee890e.png",
-    "static/media/sucursales.png": "/jodkas.github.io/portafolio/static/media/sucursales.7d03287f7fa9cb7f5c7f.png",
-    "static/media/rcd-cap2.png": "/jodkas.github.io/portafolio/static/media/rcd-cap2.0345649066629fe8ae35.png",
-    "static/media/rcd-start.png": "/jodkas.github.io/portafolio/static/media/rcd-start.95e4aa8dadf47d75979d.png",
-    "static/media/rcd-tutorial.png": "/jodkas.github.io/portafolio/static/media/rcd-tutorial.408c20f1251888695a7f.png",
-    "static/media/rcd-finish.png": "/jodkas.github.io/portafolio/static/media/rcd-finish.ee16c00074271b024b5c.png",
-    "static/media/rcd-selected.png": "/jodkas.github.io/portafolio/static/media/rcd-selected.adf91336d221975e3cf3.png",
-    "static/media/rcd-cap1.png": "/jodkas.github.io/portafolio/static/media/rcd-cap1.8ffb32eff1ca054a4c7a.png",
-    "static/media/pedidos.png": "/jodkas.github.io/portafolio/static/media/pedidos.a07376e30127195e334c.png",
-    "static/media/instagram.png": "/jodkas.github.io/portafolio/static/media/instagram.ac219101e4aaed3c7234.png",
-    "static/media/rcd-cap3.png": "/jodkas.github.io/portafolio/static/media/rcd-cap3.0dcdfa23b0db9bff98a0.png",
-    "index.html": "/jodkas.github.io/portafolio/index.html",
-    "main.e99290dc.css.map": "/jodkas.github.io/portafolio/static/css/main.e99290dc.css.map",
-    "main.b7b62e82.js.map": "/jodkas.github.io/portafolio/static/js/main.b7b62e82.js.map",
-    "787.ae0d8d37.chunk.js.map": "/jodkas.github.io/portafolio/static/js/787.ae0d8d37.chunk.js.map"
+    "main.css": "/Jodkas.github.io/portafolio/static/css/main.e99290dc.css",
+    "main.js": "/Jodkas.github.io/portafolio/static/js/main.699745ff.js",
+    "static/js/787.ae0d8d37.chunk.js": "/Jodkas.github.io/portafolio/static/js/787.ae0d8d37.chunk.js",
+    "static/media/inicio.png": "/Jodkas.github.io/portafolio/static/media/inicio.d6835df5088847ee890e.png",
+    "static/media/sucursales.png": "/Jodkas.github.io/portafolio/static/media/sucursales.7d03287f7fa9cb7f5c7f.png",
+    "static/media/rcd-cap2.png": "/Jodkas.github.io/portafolio/static/media/rcd-cap2.0345649066629fe8ae35.png",
+    "static/media/rcd-start.png": "/Jodkas.github.io/portafolio/static/media/rcd-start.95e4aa8dadf47d75979d.png",
+    "static/media/rcd-tutorial.png": "/Jodkas.github.io/portafolio/static/media/rcd-tutorial.408c20f1251888695a7f.png",
+    "static/media/rcd-finish.png": "/Jodkas.github.io/portafolio/static/media/rcd-finish.ee16c00074271b024b5c.png",
+    "static/media/rcd-selected.png": "/Jodkas.github.io/portafolio/static/media/rcd-selected.adf91336d221975e3cf3.png",
+    "static/media/rcd-cap1.png": "/Jodkas.github.io/portafolio/static/media/rcd-cap1.8ffb32eff1ca054a4c7a.png",
+    "static/media/pedidos.png": "/Jodkas.github.io/portafolio/static/media/pedidos.a07376e30127195e334c.png",
+    "static/media/instagram.png": "/Jodkas.github.io/portafolio/static/media/instagram.ac219101e4aaed3c7234.png",
+    "static/media/rcd-cap3.png": "/Jodkas.github.io/portafolio/static/media/rcd-cap3.0dcdfa23b0db9bff98a0.png",
+    "index.html": "/Jodkas.github.io/portafolio/index.html",
+    "main.e99290dc.css.map": "/Jodkas.github.io/portafolio/static/css/main.e99290dc.css.map",
+    "main.699745ff.js.map": "/Jodkas.github.io/portafolio/static/js/main.699745ff.js.map",
+    "787.ae0d8d37.chunk.js.map": "/Jodkas.github.io/portafolio/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e99290dc.css",
-    "static/js/main.b7b62e82.js"
+    "static/js/main.699745ff.js"
   ]
 }
