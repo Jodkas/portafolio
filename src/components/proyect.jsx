@@ -1,6 +1,6 @@
-import { useState } from "react";
-import proyectStyles from "./proyect.module.css";
-import { motion } from "framer-motion";
+import { useState } from 'react';
+import proyectStyles from './proyect.module.css';
+import { motion } from 'framer-motion';
 
 const Proyect = (props) => {
   const [position, setPosition] = useState(0);
@@ -37,28 +37,7 @@ const Proyect = (props) => {
       <section className={proyectStyles.features}>
         <section className={proyectStyles.descriptionContainer}>
           <p className={proyectStyles.description}>{props.text}</p>
-          <div className={proyectStyles.buttonContainer}>
-            {props.button.link ? (
-              <motion.div
-                className={proyectStyles.button}
-                onClick={() => window.open(props.button.link, "_blank")}
-              >
-                <p
-                  className={proyectStyles.buttonText}
-                  onClick={() => window.open(props.button.download, "_blank")}
-                >
-                  Visitar
-                </p>
-              </motion.div>
-            ) : null}
-            {props.button.download ? (
-              <motion.div className={proyectStyles.button}>
-                <p className={proyectStyles.buttonText}>Descargar</p>
-              </motion.div>
-            ) : null}
-          </div>
         </section>
-
         <div className={proyectStyles.sliderContainer}>
           {props.images.map((img, index) => (
             <motion.div
@@ -88,15 +67,34 @@ const Proyect = (props) => {
                 translateX: `${
                   (index - position) * (30 - Math.abs(index - position) * 6)
                 }%`,
-                visibility: Math.abs(index - position) > 2 ? "hidden" : null,
+                visibility: Math.abs(index - position) > 2 ? 'hidden' : null,
               }}
             >
               <img src={img} alt="" className={proyectStyles.img} />
             </motion.div>
           ))}
         </div>
+        <div className={proyectStyles.buttonContainer}>
+          {props.button.link ? (
+            <div
+              className={proyectStyles.button}
+              onClick={() => window.open(props.button.link, '_blank')}
+            >
+              <p
+                className={proyectStyles.buttonText}
+                onClick={() => window.open(props.button.download, '_blank')}
+              >
+                Visitar
+              </p>
+            </div>
+          ) : null}
+          {props.button.download ? (
+            <div className={proyectStyles.button}>
+              <p className={proyectStyles.buttonText}>Descargar</p>
+            </div>
+          ) : null}
+        </div>
       </section>
-      <section></section>
     </article>
   );
 };
